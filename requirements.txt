@@ -1,0 +1,8 @@
+llama-cpp-python
+mesa
+networkx
+chromadb
+faiss-cpu
+fastapi
+uvicorn
+streamlit

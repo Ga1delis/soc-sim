@@ -1,0 +1,7 @@
+models/*
+!models/.keep
+__pycache__/
+*.pyc
+logs/
+data/memory/*
+data/runs/*

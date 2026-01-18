@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    volumes:
+      - ./simulation:/app/simulation
+      - ./agents:/app/agents
+      - ./environment:/app/env
+      - ./models:/models
+    stdin_open: true
+    tty: true
